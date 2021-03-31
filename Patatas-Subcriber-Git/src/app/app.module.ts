@@ -9,6 +9,7 @@ import { ListSubcribersComponent } from './Views/list-subcribers/list-subcribers
 import { SubscriberDetailComponent } from './Views/subscriber-detail/subscriber-detail.component';
 import { NewComponent } from './Views/new/new.component';
 import { EditComponent } from './Views/edit/edit.component';
+import { HeadersComponent } from './Templates/headers/headers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EditComponent } from './Views/edit/edit.component';
     ListSubcribersComponent,
     SubscriberDetailComponent,
     NewComponent,
-    EditComponent
+    EditComponent,
+    HeadersComponent
   ],
   imports: [
     BrowserModule,
