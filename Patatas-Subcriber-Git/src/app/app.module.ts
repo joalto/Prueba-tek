@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ViewsComponent } from './Login/views/views.component';
 import { LoginComponent } from './Views/login/login.component';
 import { ListSubcribersComponent } from './Views/list-subcribers/list-subcribers.component';
+import { SubscriberDetailComponent } from './Views/subscriber-detail/subscriber-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewsComponent,
     LoginComponent,
-    ListSubcribersComponent
+    ListSubcribersComponent,
+    SubscriberDetailComponent
   ],
   imports: [
     BrowserModule,
