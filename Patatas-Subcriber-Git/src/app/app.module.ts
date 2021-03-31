@@ -8,6 +8,7 @@ import { LoginComponent } from './Views/login/login.component';
 import { ListSubcribersComponent } from './Views/list-subcribers/list-subcribers.component';
 import { SubscriberDetailComponent } from './Views/subscriber-detail/subscriber-detail.component';
 import { NewComponent } from './Views/new/new.component';
+import { EditComponent } from './Views/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewComponent } from './Views/new/new.component';
     LoginComponent,
     ListSubcribersComponent,
     SubscriberDetailComponent,
-    NewComponent
+    NewComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
