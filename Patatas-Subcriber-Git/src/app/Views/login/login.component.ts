@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { ApiService } from '../../Service/api.service';
 import { LoginI } from '../../Pattern/ILogin';
-import { ResponseI } from '../../Pattern/IResponse';
+import { ResponseI } from '../../Pattern/IResponseLogin';
 
 import { Router } from '@angular/router';
 
