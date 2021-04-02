@@ -6,7 +6,7 @@ import { SubscriberDetailComponent } from './Views/subscriber-detail/subscriber-
 import { NewComponent } from './Views/new/new.component';
 import { EditComponent } from './Views/edit/edit.component';
 
-const routes: Routes = [
+const Routes: Routes = [
   {path: '', redirectTo: 'Login', pathMatch: 'full'},
   {path: 'Login', component: LoginComponent},
   {path: 'Subscribers', component: ListSubcribersComponent},
@@ -16,7 +16,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(Routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+  
+      
+      <div class="fadeIn first">
+        <img src="assets/icon login.jpg" id="icon" alt="User Icon" />
+      </div>
+  
+    
+      <form [formGroup]="LoginForm" (ngSubmit)="OnLogin(LoginForm.value)">
+        <input type="text" id="login" class="fadeIn second" placeholder="UserName" formControlName="UserName">
+        <input type="password" id="password" class="fadeIn third" placeholder="password" formControlName="Password">
+        <input type="submit" class="fadeIn fourth" value="Log In">
+      </form>
+  
+    </div>
+</div>
